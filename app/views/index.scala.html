@@ -11,10 +11,10 @@
 
    <md-card flex="none" layout="column">
        <md-content flex="90" id="message-pane" style="width:800px;
-       background: url(https://images.freecreatives.com/wp-content/uploads/2015/10/free-black-chalkboard-background.jpg);
+       background: url(http://freeios7.com/wp-content/uploads/freeios7.com_apple_wallpaper_noir_iphone4.jpg);
        background-repeat:no-repeat;
        background-size:cover;
-       background-position:center">
+       background-position:rightbottom">
 
        <div ng-repeat="message in messages" layout="column"
        layout-align="{{message.sender=='BOT' ? 'start start' : 'start end'}}">
@@ -37,7 +37,7 @@
        </div>
 
        </md-content>
-       <md-card flex="10" 
+       <md-card flex="10" style="margin: 0px" layout="row" layout-align="space-between center" class="md-whiteframe-8dp">
        <form flex="90" ng-submit="sendMessage()" layout="row">
                <md-input-container flex="100">
                    <label>Message</label>
